@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VP_layout2"
+    android:background="@color/white">
+
+
+    <ListView
+        android:id="@+id/list_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/huiSe"
+        android:divider="@color/hui"
+        android:dividerHeight="2dp"
+        android:scrollbarSize="2sp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@color/green"
+        android:smoothScrollbar="true"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

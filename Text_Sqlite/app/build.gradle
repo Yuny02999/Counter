@@ -1,0 +1,64 @@
+plugins {
+    id 'com.android.application'
+    //获取验证码所需
+//    id 'com.mob.sdk'
+}
+//获取验证码所需
+//MobSDK {
+//    appKey "378615a542748"
+//    appSecret "211f61988a5909039da6c4e55e9cbf5e"
+//    SMSSDK {}
+//}
+
+
+android {
+    namespace 'com.example.text_sqlite'
+    compileSdk 34
+
+
+    defaultConfig {
+        applicationId "com.example.text_sqlite"
+        minSdk 20
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0' //第三方加载动画
+    implementation 'com.github.ForgetAll:LoadingDialog:v1.1.2' //第三方加载动画
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.geyifeng.immersionbar:immersionbar:3.2.2'
+//获取验证码所需
+//    implementation 'io.github.bmob:android-sdk:3.8.13'
+//    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
+//    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+//    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
+//    implementation 'com.squareup.okio:okio:2.7.0'
+//    implementation 'com.google.code.gson:gson:2.8.9'
+
+
+
+}

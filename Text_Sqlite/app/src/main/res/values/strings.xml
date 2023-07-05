@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Text_Sqlite</string>
+    <string name="forgetPass">忘记密码？</string>
+    <string name="NewUserAdd">新用户注册</string>
+    <string name="success">success</string>
+    <string name="user">账号:</string>
+    <string name="add">注册</string>
+    <string name="find">找回密码</string>
+    <string name="agreement">已阅读并同意服务协议和隐私保护指引</string>
+    <string name="wechat_">WeChat</string>
+    <string name="First_Show">首页</string>
+    <string name="me">我</string>
+    <string name="discover">发现</string>
+    <string name="Address_book">通讯录</string>
+    <string name="skip">跳过</string>
+    <string name="testText">欢迎使用</string>
+    <string name="ok">确定</string>
+</resources>
